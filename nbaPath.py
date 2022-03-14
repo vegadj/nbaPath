@@ -155,15 +155,7 @@ def crossMatch (A,B, out=""):
 		crossMatch (A, B[1:], out+" %s-%s"%(A[0],B[0]))
 		#dene (A, B[1:], out+1)
 
-"""
-### calculate all posible 119 x 119 game value
-Allpos = [[0 for x in range(120)] for x in range(120)]
-for i in range(120):
-	for j in range(120):
-		_s = gamePathSize(i, j)
-		print("{:e}".format(_s),end=",")
-	print()
-"""
+
 
 if __name__ == "__main__":
 	scoreA = args.score[0]
@@ -175,5 +167,12 @@ if __name__ == "__main__":
 	print("Number of uniq game plays for score {}-{} is: {:e}".format(scoreA, scoreB, _s))
 	if (args.list):
 		gameAllScores(scoreA, scoreB)
+
+### calculate all posible 119 x 119 game value
+#for i in range(201):
+#	for j in range(201):
+#		_s = gamePathSize(i, j)
+#		print("{:e}".format(_s),end=",")
+#	print()
 
 

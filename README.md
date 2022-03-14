@@ -15,11 +15,15 @@ Run the script with game score. This runs extremly fast. It is just calculating 
 ### Individial Trajectories
 If you want print out all individual possible game trajactories use `-l` or `--list` flag. Be aware that this can take infinite amount of time for large score values. Graph based searching is used for calculating all possible ways. 
 
-## Output for 119x119 game scores.
+## Output for 200x200 game scores.
 
-There is a csv file `allSize-119x119.csv` in the repo. This file contains pre-calculated number of all possible scores in 119x119 grid. 
+There is a csv file `allSize-119x119.csv` in the repo. This file contains pre-calculated number of all possible scores in 200x200 grid. 
 
-For 119-119 score game, number of total uniq game play is `1.6E+109`.
+For 200-200 score game, number of total uniq game play is `2.982857e+184`.
+
+Note that highest NBA score match in history is with 186-184 score which has `3.390493e+170` uniq plays. 
+December 13, 1983 ; *Detroit Pistons* ; Denver Nuggets 
+
 
 ## Example 
 
